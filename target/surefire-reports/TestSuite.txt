@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 106.841 s <<< FAILURE! - in TestSuite
+org.selenium.pom.tests.MyFirstTestCase.loginAndCheckoutUsingDirectBankTransfer  Time elapsed: 70.386 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .woocommerce-notice (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-CQC4P7G6', ip: '192.168.29.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\TEJASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65365/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4f70d7f34ad46e000b37147d3e40459
+	at org.selenium.pom.tests.MyFirstTestCase.loginAndCheckoutUsingDirectBankTransfer(MyFirstTestCase.java:90)
+
