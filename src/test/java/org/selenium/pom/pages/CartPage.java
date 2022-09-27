@@ -22,7 +22,7 @@ public class CartPage extends BasePage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(productName)).getText();
     }
 
-    /*public Boolean isLoaded()
+    /*public Boolean isLoaded()++++++++++
     {
         return wait.until(ExpectedConditions.textToBe(cartHeading,"Cart"));
     }*/
